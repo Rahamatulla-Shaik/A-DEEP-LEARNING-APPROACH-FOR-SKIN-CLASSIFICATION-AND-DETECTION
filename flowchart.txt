@@ -1,0 +1,51 @@
+1. Importing the packages
+2. Exploring the dataset 
+	-  Skin Cancer Data
+	- Detection
+3. Image processing
+	- using ImageDataGenerator 
+		- Re-scaling the Image
+		- Shear Transformation
+		- Zooming the Image
+		- Horizontal Flip 
+		- Reshaping the Image 
+		- Segmentation
+			- Applying Morphological Black-Hat transformation
+			- Creating the mask for InPainting task
+			- Applying inpainting algorithm on the image
+4. Building the model 
+	- Classification
+	    - ResNet50
+	    - DenseNet169
+	    - VGG16
+	    - Xception
+	    - DenseNet201
+	- Detection
+		- YoloV5
+		- YoloV6
+		- YoloV7
+		- YoloV8
+   
+5. Training the model
+6. Building the model 
+
+
+Flask Framework
+----------------
+ 
+7. Flask Framework with Sqlite for signup and signin
+8. Importing the packages
+9. User Upload an image for analysis
+10. The given input is preprocessed and segmented 
+11. The trained model is used for predicting the result
+12. Final Outcome is display 
+
+
+Extension
+------------
+In the base paper, the author mentioned to use different models for analysis the Skin cancer dataset using ResNet50, DenseNet161 and VGG16 
+from which ResNet50 model got 90% of train accuracy,
+However, we can further enhance the performance by exploring other techniques such Xception, DenseNet201 model for classification
+from which Xception got 96% of accuracy, 
+ALong with that we applied Yolo Models(Version of V5,V6,V7,V8) for detection skin disease region,
+With the above As an extension we can build the front end using flask framework for user testing with authentication.
